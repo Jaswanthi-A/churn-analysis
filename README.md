@@ -29,3 +29,14 @@ This project answers three questions:
 ## Author
 
 Jaswanthi A — [GitHub](https://github.com/Jaswanthi-A)
+
+## Key Findings
+
+- **One customer segment drives 72% of churn revenue.** Month-to-month customers with fiber internet — 30% of the customer base — account for $1.2M of the $1.67M annual revenue lost to churn.
+- **Churned customers pay 21% more on average** ($74.44 vs $61.27/month). The company is losing its highest-value customers.
+- **53% of all churn happens in the first 6 months** — pointing to an onboarding gap.
+- **Month-to-month customers churn at 15x the rate** of two-year contract customers (42.7% vs 2.8%), making contract conversion the highest-leverage intervention.
+
+## Recommendation Hypothesis
+
+A targeted retention program focused on the ~2,100 month-to-month fiber customers — offering meaningful incentives to convert to annual contracts — could address the majority of the company's churn problem with far less spend than broad retention campaigns.
