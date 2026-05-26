@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+*.egg-info/
+
+# Data files (too big for git; we'll handle separately)
+data/raw/*.csv
+data/processed/*.csv
+data/raw/*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+*.ipynb_checkpoints
