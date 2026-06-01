@@ -40,3 +40,8 @@ Jaswanthi A — [GitHub](https://github.com/Jaswanthi-A)
 ## Recommendation Hypothesis
 
 A targeted retention program focused on the ~2,100 month-to-month fiber customers — offering meaningful incentives to convert to annual contracts — could address the majority of the company's churn problem with far less spend than broad retention campaigns.
+
+- **One contract type drives 87% of churn revenue.** Month-to-month customers — 55% of the base — account for $1.45M of the $1.67M lost annually. Two-year contract customers account for just 3% of churn revenue.
+- **Within month-to-month, fiber customers are the worst segment.** This single sub-segment (30% of base) drives 72% of total churn revenue.
+- **Churn front-loads in the customer lifecycle:** 53% of churn happens in the first 6 months.
+- **Churned customers pay 21% more on average** ($74.44 vs $61.27) — the company is losing its highest-value customers.
