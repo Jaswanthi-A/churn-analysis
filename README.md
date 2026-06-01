@@ -45,3 +45,4 @@ A targeted retention program focused on the ~2,100 month-to-month fiber customer
 - **Within month-to-month, fiber customers are the worst segment.** This single sub-segment (30% of base) drives 72% of total churn revenue.
 - **Churn front-loads in the customer lifecycle:** 53% of churn happens in the first 6 months.
 - **Churned customers pay 21% more on average** ($74.44 vs $61.27) — the company is losing its highest-value customers.
+- **A rules-based SQL scorecard already separates churners 29x.** Without any machine learning, 5 CASE WHEN risk factors produce a Critical tier with 57.4% actual churn vs 2.0% in the Low tier. The 2,266 customers flagged Critical represent $1.2M in annual revenue at risk — establishing the baseline that any ML model must beat.
