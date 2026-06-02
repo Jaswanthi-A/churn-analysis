@@ -74,3 +74,10 @@ and ML predictions:
 
 ### Page 4: Who's at Risk Now?
 ![At Risk](dashboard/page4_at_risk.png)
+
+## 📄 Case Study
+
+📥 **[Read the full case study (PDF)](reports/case_study.pdf)** | 📝 **[View as Markdown](reports/case_study.md)**
+
+A 2-3 page McKinsey-style memo summarizing the business problem, key findings, 
+recommendations, and projected $275K annual impact.
