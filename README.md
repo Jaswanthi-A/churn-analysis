@@ -48,3 +48,29 @@ A targeted retention program focused on the ~2,100 month-to-month fiber customer
 - **A rules-based SQL scorecard already separates churners 29x.** Without any machine learning, 5 CASE WHEN risk factors produce a Critical tier with 57.4% actual churn vs 2.0% in the Low tier. The 2,266 customers flagged Critical represent $1.2M in annual revenue at risk — establishing the baseline that any ML model must beat.
 - **A simple logistic regression beats more complex models** (ROC-AUC 0.839 vs XGBoost 0.831 vs Random Forest 0.821). The relationship between features and churn is largely linear and additive — interpretability and operational simplicity favor the simpler model. Recall on churners reaches 80%, meaning a retention program acting on these flags would address ~80% of at-risk customers.
 - **The optimal classification threshold for the retention program is 0.50, generating $55K in net business value on the held-out test set.** Scaled to the full customer base, this represents approximately $275K annually — roughly 17% recovery of the $1.67M churn loss. The threshold sensitivity curve also shows the retention team has flexibility: any threshold between 0.20 and 0.55 produces similar net value, giving operational latitude.
+
+## 📊 Live Interactive Dashboard
+
+🔗 **[View the live Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiYWJlMDYwNmEtNzdkNS00ODc1LWE5MjMtMjhhZTUxYWI2YTU2IiwidCI6IjcwZGUxOTkyLTA3YzYtNDgwZi1hMzE4LWExYWZjYmEwMzk4MyIsImMiOjN9
+)**
+
+A 4-page interactive dashboard built on top of the live PostgreSQL database 
+and ML predictions:
+
+- **Executive Summary** — headline KPIs and segment-level churn drivers
+- **Who Is Churning?** — demographic and contract characteristics  
+- **Why Are They Churning?** — service add-on impact, charges, tenure trends, SHAP feature importance
+- **Who's at Risk Now?** — heat-mapped action list of 1,444 critical-risk customers
+## Dashboard Pages
+
+### Page 1: Executive Summary
+![Executive Summary](dashboard/page1_executive_summary.png)
+
+### Page 2: Who Is Churning?
+![Who Is Churning](dashboard/page2_who_is_churning.png)
+
+### Page 3: Why Are They Churning?
+![Why Are They Churning](dashboard/page3_why_churning.png)
+
+### Page 4: Who's at Risk Now?
+![At Risk](dashboard/page4_at_risk.png)
